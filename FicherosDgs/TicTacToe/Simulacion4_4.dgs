@@ -1,0 +1,56 @@
+DGS004
+'null' 0 0
+st0
+
+an Punto0_0
+cn Punto0_0 x=0.0 y=0.0 z=0.0
+cn Punto0_0 ui.class=ZONA_SEGURA
+an Punto1_0
+cn Punto1_0 x=1.0 y=0.0 z=0.0
+cn Punto1_0 ui.class=ZONA_REPARACION
+an Punto2_0
+cn Punto2_0 x=2.0 y=0.0 z=0.0
+cn Punto2_0 ui.class=ZONA_ANTIBOMBARDEOS
+an Punto3_0
+cn Punto3_0 x=3.0 y=0.0 z=0.0
+cn Punto3_0 ui.class=ZONA_ATAQUE
+an Punto4_0
+cn Punto4_0 x=4.0 y=0.0 z=0.0
+cn Punto4_0 ui.class=ZONA_PELIGROSA
+an Punto5_0
+cn Punto5_0 x=5.0 y=0.0 z=0.0
+cn Punto5_0 ui.class=BOMBARDEO_DETECTADO
+an Punto6_0
+cn Punto6_0 x=6.0 y=0.0 z=0.0
+cn Punto6_0 ui.class=VIDA_ALTA
+an Punto7_0
+cn Punto7_0 x=7.0 y=0.0 z=0.0
+cn Punto7_0 ui.class=VIDA_BAJA
+an Punto8_0
+cn Punto8_0 x=8.0 y=0.0 z=0.0
+cn Punto8_0 ui.class=AGENTE_DESTRUIDO
+an Punto9_0
+cn Punto9_0 x=9.0 y=0.0 z=0.0
+cn Punto9_0 ui.class=ENEMIGO_DESTRUIDO
+an agentTank_ZONA_ATAQUE
+cn agentTank_ZONA_ATAQUE x=3.0 y=1.0 z=-5.0
+cn agentTank_ZONA_ATAQUE ui.class=agentTank
+an agentTank_VIDA_ALTA
+cn agentTank_VIDA_ALTA x=6.0 y=1.0 z=-5.0
+cn agentTank_VIDA_ALTA ui.class=agentTank
+an agentTank_BOMBARDEO_DETECTADO
+cn agentTank_BOMBARDEO_DETECTADO x=5.0 y=1.0 z=-5.0
+cn agentTank_BOMBARDEO_DETECTADO ui.class=agentTank
+cn agentTank_VIDA_ALTA x=6.0 y=1.0 z=-5.0
+cn agentTank_VIDA_ALTA ui.class=agentTank
+an agentTank_AGENTE_DESTRUIDO
+cn agentTank_AGENTE_DESTRUIDO x=8.0 y=1.0 z=-5.0
+cn agentTank_AGENTE_DESTRUIDO ui.class=agentTank
+st1
+
+cn agentTank_ZONA_ATAQUE ui.class=vacio
+cn agentTank_VIDA_ALTA ui.class=vacio
+st2
+
+cn agentTank_BOMBARDEO_DETECTADO ui.class=vacio
+cn agentTank_VIDA_ALTA ui.class=vacio

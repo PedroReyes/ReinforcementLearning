@@ -1,0 +1,25 @@
+graph { fill-color: #555; }
+
+edge { shape: angle; arrow-shape: none; size: 10px; fill-color: #92F;}
+
+edge.invisible{ visibility-mode: hidden; } 
+
+node.default { size: 60px; fill-color: #444; }
+
+node.invisible{ size: 0px; fill-color: #444; }
+
+node.cuadrado{ shape: box; fill-color: #555; stroke-mode: plain; stroke-color: #333; size:100px, 100px;}
+
+node.circulo { shape: circle; fill-color: #EEE; stroke-mode: plain; stroke-color: #333; size:100px; }
+
+node.cruz { shape: cross; fill-color: #EEE; stroke-mode: plain; stroke-color: #333; size:100px; }
+
+node.vacio { size: 5px; fill-color: #777; text-mode: normal; z-index: 0; }
+
+node.tanque{ fill-color: blue; size: 32px; fill-mode: image-scaled; shape: box;
+	fill-image: url('file:///Users/pedro/Google Drive/Desarrollo/BasicReinforcementLearningAlgorithm/Imagenes/tank/greenTank.png'); 
+}
+
+sprite.tanque{ fill-color: blue; size: 32px; fill-mode: image-scaled; 
+	fill-image: url('file:///Users/pedro/Google Drive/Desarrollo/BasicReinforcementLearningAlgorithm/Imagenes/tank/greenTank.png'); 
+}

@@ -1,0 +1,11 @@
+Ejemplo con unas pocas iteraciones para probar que el programa en R funciona
+y tambien para poder ver si todo se ejecuta con normalidad.
+
+
+===============GLOBAL PARAMETERS OF THE EXPERIMENT===============
+Learning method: Q_LEARNING
+Selection method: MONTE_CARLO_TREE_SEARCH
+Total tasks: 1
+Total episodes: 150
+
+===============IMAGES DESCRIPTION===============- xEpisode_yWinProbability: measure the probability of winning a game with the policy acquired in the current episode- xEpisode_yAverageReward: average of [average reward of each step in an episode] of each episode per task.- xEpisode_yOptimalAction: average of [percentage of optimal actions chosen in an episode] of each episode per task.- xEpisode_yPercentageOfActions: histogram of the average of the [percentage of each action chosen over an episode] of each episode per task.- xEpisode_yAverageSteps: average of all the tasks of steps needed in an episode- histogramOfQvalues: histogram of the QValues obtained in the last episode of the last task- policyPerformance: Description

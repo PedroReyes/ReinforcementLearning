@@ -1,0 +1,69 @@
+graph { fill-color: #555; }
+
+edge { shape: angle; arrow-shape: none; size: 10px; fill-color: #92F;}
+
+edge.invisible{ visibility-mode: hidden; } 
+
+node.default { size: 1px; fill-color: #444; }
+
+node.invisible{ size: 0px; fill-color: #444; }
+
+node.cuadrado{ shape: box; fill-color: #555; stroke-mode: plain; stroke-color: #333; size:100px, 100px;}
+
+node.circulo { shape: circle; fill-color: #EEE; stroke-mode: plain; stroke-color: #333; size:100px; }
+
+node.cruz { shape: cross; fill-color: #EEE; stroke-mode: plain; stroke-color: #333; size:100px; }
+
+node.vacio { size: 5px; fill-color: #777; text-mode: normal; z-index: 0; }
+
+node.agentTank{ fill-color: blue; size: 32px; fill-mode: image-scaled; shape: box;
+	fill-image: url('file:///Users/pedro/Google Drive/Desarrollo/BasicReinforcementLearningAlgorithm/Imagenes/tank/agentTank.png'); 
+}
+
+node.enemyTank{ fill-color: blue; size: 32px; fill-mode: image-scaled; shape: box;
+	fill-image: url('file:///Users/pedro/Google Drive/Desarrollo/BasicReinforcementLearningAlgorithm/Imagenes/tank/enemyTank.png'); 
+}
+
+node.BOMBARDEO_DETECTADO{ fill-color: blue; size: 32px; fill-mode: image-scaled; shape: box;
+	fill-image: url('file:///Users/pedro/Google Drive/Desarrollo/BasicReinforcementLearningAlgorithm/Imagenes/tank/BOMBARDEO_DETECTADO.png'); 
+}
+
+node.ZONA_PELIGROSA{ fill-color: blue; size: 32px; fill-mode: image-scaled; shape: box;
+	fill-image: url('file:///Users/pedro/Google Drive/Desarrollo/BasicReinforcementLearningAlgorithm/Imagenes/tank/ZONA_PELIGROSA.png'); 
+}
+
+node.ZONA_ANTIBOMBARDEOS{ fill-color: blue; size: 32px; fill-mode: image-scaled; shape: box;
+	fill-image: url('file:///Users/pedro/Google Drive/Desarrollo/BasicReinforcementLearningAlgorithm/Imagenes/tank/ZONA_ANTIBOMBARDEOS.png'); 
+}
+
+node.ZONA_ATAQUE{ fill-color: blue; size: 32px; fill-mode: image-scaled; shape: box;
+	fill-image: url('file:///Users/pedro/Google Drive/Desarrollo/BasicReinforcementLearningAlgorithm/Imagenes/tank/ZONA_ATAQUE.png'); 
+}
+
+node.ZONA_REPARACION{ fill-color: blue; size: 32px; fill-mode: image-scaled; shape: box;
+	fill-image: url('file:///Users/pedro/Google Drive/Desarrollo/BasicReinforcementLearningAlgorithm/Imagenes/tank/ZONA_REPARACION.png'); 
+}
+
+node.ZONA_SEGURA{ fill-color: blue; size: 32px; fill-mode: image-scaled; shape: box;
+	fill-image: url('file:///Users/pedro/Google Drive/Desarrollo/BasicReinforcementLearningAlgorithm/Imagenes/tank/ZONA_SEGURA.png'); 
+}
+
+node.VIDA_ALTA{ fill-color: blue; size: 32px; fill-mode: image-scaled; shape: box;
+	fill-image: url('file:///Users/pedro/Google Drive/Desarrollo/BasicReinforcementLearningAlgorithm/Imagenes/tank/VIDA_ALTA.png'); 
+}
+
+node.VIDA_BAJA{ fill-color: blue; size: 32px; fill-mode: image-scaled; shape: box;
+	fill-image: url('file:///Users/pedro/Google Drive/Desarrollo/BasicReinforcementLearningAlgorithm/Imagenes/tank/VIDA_BAJA.png'); 
+}
+
+node.AGENTE_DESTRUIDO{ fill-color: blue; size: 32px; fill-mode: image-scaled; shape: box;
+	fill-image: url('file:///Users/pedro/Google Drive/Desarrollo/BasicReinforcementLearningAlgorithm/Imagenes/tank/AGENTE_DESTRUIDO.png'); 
+}
+
+node.ENEMIGO_DESTRUIDO{ fill-color: blue; size: 32px; fill-mode: image-scaled; shape: box;
+	fill-image: url('file:///Users/pedro/Google Drive/Desarrollo/BasicReinforcementLearningAlgorithm/Imagenes/tank/ENEMIGO_DESTRUIDO.png'); 
+}
+
+sprite.tanque{ fill-color: blue; size: 32px; fill-mode: image-scaled; 
+	fill-image: url('file:///Users/pedro/Google Drive/Desarrollo/BasicReinforcementLearningAlgorithm/Imagenes/tank/greenTank.png'); 
+}

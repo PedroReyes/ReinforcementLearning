@@ -1,0 +1,16 @@
+sigmoid
+regularization
+overfitting
+hyperparameters
+feedforward
+backforward
+synaptic
+roulette
+pointcuts
+playout
+monte
+carlo
+backpropagation
+experimento
+int
+playouts
